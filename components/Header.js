@@ -33,7 +33,7 @@ export default function Header() {
         <hr />
 
         <div className="">
-          <ul className="flex lg:gap-10 sm:gap-8 gap-2 sm:text-lg text-[10px] ">
+          <ul className="flex lg:gap-10 sm:gap-4 gap-1 sm:text-lg text-[10px] ">
             <li className="text-orange-600 after-content after-block after-w-full after-h-1 after-bg-orange hover:text-orange-600 font-semibold">About</li>
             <li className="text-gray-600 hover:text-orange-600 font-semibold">Courses</li>
             <li className="text-gray-600 hover:text-orange-600 font-semibold">Cost</li>
