@@ -9,6 +9,10 @@
 }
 /* RoundComponent.css */
 .custom-bg-image {
-    background-image: url('/face.jpg');
+    background-image: url('../public/face.jpg');
+  }
+  
+.img{
+    background-image: url('../public/bann.jpeg');
   }
   
