@@ -4,9 +4,9 @@ import { useState } from 'react';
 
 const VideoCarousel = () => {
   const videos = [
-    '/reading.mp4',
-    '/playing.mp4',
-    '/reader.mp4',
+    './reading.mp4',
+    './playing.mp4',
+    './reader.mp4',
   ];
 
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
