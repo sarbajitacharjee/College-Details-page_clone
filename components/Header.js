@@ -11,6 +11,7 @@ export default function Header() {
         referrerPolicy="no-referrer"
       />
       
+      
       <header className="bg-white rounded-2xl shadow p-4 flex-row justify-between items-center mx-6">
         <div className="relative h-36 mt-2 bg-contain bg-center rounded-2xl" style={{ backgroundImage: "url('/bann.jpeg')" }}>
           <div className="absolute inset-0 bg-black rounded-2xl bg-opacity-30 flex justify-center items-center"></div>
@@ -24,8 +25,8 @@ export default function Header() {
             <span className="text-sm text-gray-600">Massachusetts, United States</span>
           </h1>
           <div className="flex items-center space-x-4">
-            <button className="bg-gray-200 px-4 py-2 rounded"><i className="fas fa-star"></i></button>
-            <button className="bg-gray-200 px-3 py-2 rounded"><i className="fas fa-user md:mr-2 align-center"></i><span className="md:inline-block hidden font-bold">Join group</span></button>
+            <button className="border-2  px-4 py-2 rounded"><i class="fa-regular fa-star "></i></button>
+            <button className="border-2 px-3 py-2 rounded"><i className="fas fa-user md:mr-2 align-center"></i><span className="md:inline-block hidden font-bold">Join group</span></button>
             <button className="bg-orange-500 text-white px-4 py-2 rounded mr-4"><i className="fas fa-user-plus md:mr-2"></i><span className="md:inline-block hidden font-bold">Help Me Decide</span></button>
           </div>
         </div>

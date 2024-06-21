@@ -3,7 +3,7 @@ import VideoCarousel from "./VideoCarousel";
 export default function CollegeInfo() {
     return (
       <div className="container w-full ml-7 py-5 rounded-md">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between gap-10 items-center">
           <div className="w-3/4">
             <h2 className="text-xl font-bold mb-4">About</h2><hr/>
             <div className="bg-white p-6 shadow rounded">
@@ -33,21 +33,22 @@ export default function CollegeInfo() {
           </div>
 
 
+          
 
           <div className="w-1/4 space-y-4 ">
             <div className="bg-white p-4 shadow rounded">
               <h3 className="text-lg font-bold mb-2">Photos & Videos</h3>
-              <div className="aspect-w-16 aspect-h-9">
-              <video controls muted loop width="640" height="360">
-        <source src="reading.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-              </div>
+              
+      <div class="w-full"> 
+      <VideoCarousel />
+      </div>
+
+
             </div>
             <div className="bg-white p-4 shadow rounded">
               <h3 className="text-lg font-bold mb-2">Contact</h3>
-              <p>Address: 3 Oxford St, Cambridge, MA 02138, USA</p>
-              <p>Email: internationaloffice@harvard.edu</p>
+              <p><span class="dark">Address:</span> 3 Oxford St, Cambridge, MA 02138, USA</p>
+              <p class="dark">Email: internationaloffice@harvard.edu</p>
             </div>
           </div>
 

@@ -7,3 +7,8 @@
 .dark{
     font-weight: 600;
 }
+/* RoundComponent.css */
+.custom-bg-image {
+    background-image: url('/face.jpg');
+  }
+  
