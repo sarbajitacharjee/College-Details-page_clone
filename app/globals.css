@@ -11,4 +11,8 @@
 .custom-bg-image {
     background-image: url('../public/face.jpg');
   }
+
+.img{
+    background-image: url('../public/bann.jpeg');
+  }
   
