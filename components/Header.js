@@ -13,10 +13,10 @@ export default function Header() {
       
       
       <header className="bg-white rounded-2xl shadow p-4 flex-row justify-between items-center mx-6">
-        <div className="relative h-36 mt-2 bg-contain bg-center rounded-2xl" style={{ backgroundImage: "url('/bann.jpeg')" }}>
+        <div className="relative h-36 mt-2 bg-contain bg-center rounded-2xl" style={{ backgroundImage: "url('./bann.jpeg')" }}>
           <div className="absolute inset-0 bg-black rounded-2xl bg-opacity-30 flex justify-center items-center"></div>
         </div>
-        <Image src="/logo.jpg" width="70" height="100" className="absolute top-28 rounded-lg left-16" />
+        <Image src="./logo.jpg" width="70" height="100" className="absolute top-28 rounded-lg left-16" />
 
         <div className="lg:flex justify-between mt-4 mb-4">
           <h1 className="text-xl font-bold">
