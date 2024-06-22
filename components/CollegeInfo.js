@@ -52,6 +52,14 @@ export default function CollegeInfo() {
               Harvard University acceptance rate is just 4%, making it one of the
               most selective universities in the world.
             </p>
+            <p className="mt-4">
+              Harvard University acceptance rate is just 4%, making it one of the
+              most selective universities in the world.
+            </p>
+            <p className="mt-4">
+              Harvard University acceptance rate is just 4%, making it one of the
+              most selective universities in the world.
+            </p>
           </div>
         </div>
 
