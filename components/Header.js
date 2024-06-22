@@ -1,6 +1,6 @@
-import Image from "next/image"; // Importing Image component from Next.js
+import Image from "next/image";
+import '../app/globals.css'
 
-import '../app/globals.css'; // Importing global CSS file
 
 export default function Header() {
   return (
@@ -19,11 +19,13 @@ export default function Header() {
         {/* Background image container */}
         <div className="relative h-36 mt-2 bg-contain bg-center rounded-2xl img" >
           {/* Overlay for the background image */}
+        <div className="relative h-36 mt-2 bg-contain bg-center rounded-2xl img" >
           <div className="absolute inset-0 bg-black rounded-2xl bg-opacity-30 flex justify-center items-center"></div>
         </div>
         
         {/* Logo image */}
         <Image src="/logo.jpg" width="70" height="100" className="absolute top-28 rounded-lg left-16" />
+        <Image src="./logo.jpg" width="70" height="100" className="absolute top-28 rounded-lg left-16" />
 
         {/* Main content */}
         <div className="lg:flex justify-between mt-4 mb-4">
